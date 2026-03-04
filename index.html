@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="authSection">
+  <h2>تسجيل / دخول</h2>
+
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
+
+  <button id="registerBtn">Register</button>
+  <button id="loginBtn">Login</button>
+</div>
+
+<div id="appSection" style="display:none;">
+  <h2>NEXA Feed</h2>
+  <button id="logoutBtn">Logout</button>
+
+  <textarea id="postContent" placeholder="كتب شي حاجة..."></textarea>
+  <input type="file" id="mediaFile">
+  <button id="postBtn">نشر</button>
+
+  <div id="feed"></div>
+</div>
+    <script src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
